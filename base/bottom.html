@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <style type="text/css">
+        body {
+            margin: 0;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+        .create_account{
+            width: 100%;
+            height: 80vh;
+            /* background: yellow; */
+            color: white;
+            text-align: center;
+            justify-content: center;
+            background-image: url(https://assets.mailtrap.io/packs/assets/signup_bg_tablet-4e6bc2ea34baa2ca925810f3ae95f26b.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* SIGNUP */
+        .sign {
+            width: 100%;
+            background: #ffe54c;
+            font-size: 25px;
+            margin-top: -11%;
+            text-align: center;
+            position: relative;
+        }
+        .signup-heading {
+            width: 30%;
+            height: 50%;
+            font-size: 50px;
+            margin-left: 35%;
+            opacity: 0.8;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', monospace,serif;
+        }
+        .highlight {
+            box-shadow:inset 0 -0.3em 0 0 #66f2d5;
+        }
+        .bottom_signup {
+            width: 15%;
+            height: 4em;
+            font-size: 18px;
+            padding: 0%;
+            margin: -1%;
+            border-radius: 100px;
+            box-shadow: inset 1px 1px 0 1px #fff;
+            background-color: #66f2d5;
+        }
+        /* FOOTER */
+        .footer_home{
+            width: 100%;
+            margin-top: -16%;
+            height: 40em;
+            background: #313a45;
+        }
+        .main_div {
+            width: 90%;
+            height: 70%;
+            margin: 0% 12% 0% 8%;
+            padding-top: 10%;
+            display: flex;
+        }
+        .railsware_div {
+            width: 15%;
+            height: 100%;
+        }
+        .railsware {
+            width: 60%;
+            height: 25%;
+            margin: 10%;
+            background: transparent;
+            color: white;
+            border: 1px solid silver;
+            border-radius: 8px;
+        }
+        .content_div{
+            width: 85%;
+            height: 100%;
+            gap: 60px;
+            display: grid;
+            grid-template-columns: repeat(4, 18%);
+            /* grid-template-rows: 80% 20%; */
+        }
+        .user_guide {
+            margin: 0% 0% 0% 7%;
+            width: 15em;
+        }
+        .user_guide > h3 {
+            font-size: 17px;
+            font-weight: lighter;
+            font-family: sans-serif;
+            color: white;
+        }
+        .user_guide > a {
+            width: 80%;
+            height: 10%;
+            font-size: 16px;
+            line-height: 26px;
+            color: hsla(0,0%,100%,.6);
+            font-family: 'Roboto Slab', serif;
+            text-decoration: none;
+            text-align: left;
+        }
+        .social_icon {
+            width: 13.2%;
+            height: 7.2%;
+            margin-top: 5%;
+            border-radius: 50px;
+        }
+        .icon {
+            width: 0;
+            height: 0;
+        }
+        .fb {
+            background: url(https://www.flaticon.com/svg/vstatic/svg/145/145802.svg?token=exp=1612435856~hmac=a5871ab41ac96d9f28fe5d72005e79ea);
+            background-size: cover;
+        }
+        .tweet {
+            background: url(https://www.flaticon.com/svg/vstatic/svg/733/733579.svg?token=exp=1612436819~hmac=28873aaeb769258c4c83eb937e6ab531);
+            background-size: cover;
+        }
+        /* @media only screen and (max-width: 768px) {
+
+        } */
+        </style>
+    </head>
+    <body>
+        <div class="create_account"></div>
+        <div class="sign">
+            <h2 class="signup-heading">Create your
+                <span class="highlight">free</span>
+                account in 3 clicks!
+            </h2>
+            <button class="bottom_signup" id="signup">Sign Up Now</button>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffe54c" fill-opacity="1" d="M0,160L80,144C160,128,320,96,480,101.3C640,107,800,149,960,160C1120,171,
+            1280,149,1360,138.7L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+        </svg>
+        <footer class="footer_home">
+            
+            <div class="main_div">
+                <div class="railsware_div">
+                    <button class="railsware" id="railsware">
+                        <h6>CRAFTED BY</h6>
+                        <h1>railsware</h1>
+                    </button>
+                </div>
+                <div class="content_div">
+                    <div class="user_guide">
+                        <h3>PRODUCTS</h3>
+                        <!-- <hr/> -->
+                        <a href="">Coupler</a><br>
+                        <a href="">Jira Smart Checklist</a>
+                    </div>
+                    <div class="user_guide">
+                        <h3>EXPERIENCE</h3>
+                        <!-- <hr/> -->
+                        <a href="">Open Source</a><br>
+                        <a href="">Railsware Blog</a>
+                    </div>
+                    <div class="user_guide">
+                        <h3>MAILTRAP</h3>
+                        <!-- <hr/> -->
+                        <a href="">Pricing</a><br>
+                        <a href="">Changelog</a><br>
+                        <a href="">Status</a><br>
+                        <a href="">Terms of Service</a><br>
+                        <a href="">Privacy Policy</a><br>
+                        <a href="">Navigational Information</a><br>
+                        <a href="">DPA</a>
+                    </div>
+                    <div class="user_guide">
+                        <h3>CONTACT</h3>
+                        <!-- <hr/> -->
+                        <span>
+                            eamil:
+                            <a href="">support[at]mailtrap.io</a>
+                        </span><br>
+                        <span class="inline">
+                            <a class="icon" aria-label="Visit Facebook" href="https://www.facebook.com/Mailtrap">
+                                <div class="social_icon fb">
+                                    <svg class="icon">
+                                        <use xlink:href="#facebook-circle-icon"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a class="icon" aria-label="Visit Facebook" href="https://www.twitter.com/mailtrap">
+                                <div class="social_icon tweet">
+                                    <svg class="icon">
+                                        <use xlink:href="#facebook-circle-icon"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        var signUp = document.getElementById('signup');
+        var railsware = document.getElementById('railsware');
+
+        // SIGNUP Button
+        function originalColor(e){
+            e.target.style.backgroundColor = "#66f2d5";
+        }
+        function bgcolor(e){
+            console.log(e)
+            e.target.style.backgroundColor = "#0f9e81"
+
+            signUp.addEventListener('mouseout', originalColor)
+        }
+
+        // RAILSWARE Button
+        function originalBg(e){
+            e.target.style.borderColor = "silver"
+        }
+
+        function borderColor(e){
+            e.target.style.borderColor = "#00b08c";
+
+            railsware.addEventListener('mouseout', originalBg)
+        }
+        railsware.addEventListener('mouseover', borderColor)
+        signUp.addEventListener('mouseover', bgcolor)
+    </script>
+</html>
