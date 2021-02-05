@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="help.css">
+    </head>
+    <body>
+       <div id="search">
+           <div></div>
+           <div><h1>How can we help ?</h1></div>
+           <div class="flex">
+               <input type="text" placeholder="Search the Knowledge base" id="knowledge_base"/>
+               <input type="submit" value="Search">
+           </div>
+       </div> 
+       <div id="boxes">
+           <a href="https://help.mailtrap.io/article/12-getting-started-guide">
+                <div>
+                    <h3>Getting started</h3>
+                    <p>Start working with Mailtrap</p>
+                    <p> 1 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/category/6-account-billing">
+                <div>
+                    <h3>Account & Billing</h3>
+                    <p>Account management, billing,and payment details</p>
+                    <p> 2 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/category/38-automation">
+                <div>
+                    <h3>Automation</h3>
+                    <p>Automated email testing</p>
+                    <p> 2 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/category/8-collaboration-and-reporting">
+                <div>
+                    <h3>Collaboration and reporting</h3>
+                    <p>Sharing your inboxes and projects with your team</p>
+                    <p> 2 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/category/10-emails-preview">
+                <div>
+                    <h3>Email testing</h3>
+                    <p>Testing and debugginf email template</p>
+                    <p> 6 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/category/7-privacy-security">
+                <div>
+                    <h3>Privacy & Security</h3>
+                    <p>Authentication and data protection</p>
+                    <p> 2 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/category/11-email-sending">
+                <div>
+                    <h3>Sending emails to Mailtrap</h3>
+                    <p>Integrating Mailtrap with your email system</p>
+                    <p> 2 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/article/59-troubleshooting">
+                <div>
+                    <h3>Troubleshooting</h3>
+                    <p>A list of possible errors and ways to fix them</p>
+                    <p> 1 article ></p>
+                </div>
+            </a>
+            <a href="https://help.mailtrap.io/article/40-faq">
+                <div>
+                    <h3>FAQ</h3>
+                    <p>Frequently asked questions</p>
+                    <p> 1 article ></p>
+                </div>
+            </a>
+       </div>
+    </body>
+    <script type="text/javascript" src="help.js"></script> 
+</html>
