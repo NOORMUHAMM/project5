@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <link rel="preload" href="" as="style" />
+  <link rel="preload" href="" as="script" />
+
+  
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<title>Log In</title>
+
+<meta name="title" content="Mailtrap - Safe Email Testing" />
+<meta name="description" content="Mailtrap - Safe Email Testing" />
+
+<link type="text/plain" rel="author" href="/humans.txt" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+
+  <script data-turbolinks-eval="false">
+
+</script>  <!-- Recaptcha Begin -->
+  <script src=""></script>
+  <!-- Recaptcha End -->
+
+
+  <link rel="stylesheet" media="all" href="https://assets.mailtrap.io/packs/css/landing-391b1bc7.css" data-turbolinks-track="true" />
+  <script src="https://assets.mailtrap.io/packs/js/landing-661b5a0955b77a5b5ba5.js" async="async" data-turbolinks-track="true" data-turbolinks-eval="false"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="TPL8koAJKi0gBKlQ_bbbbzL_LPCeqgHkbI4B-G6N9w2XRum_p06wbaKqiBtEnAZxJH68S05ZEohIdE8L5s4fbg" />
+  <meta name="csp-nonce" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJDRX6T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="flash_message flash"></div>
+
+
+  <header class="header">
+  <div id="browsersWarningMessage" class="browser-warning" data-turbolinks-permanent="true">
+  <p class="chromeframe">
+    You are using an <a class="browser-warning__link" href="//support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer" rel="noopener noreferrer" target="_blank">outdated Internet Explorer</a> browser. We recommend you to switch to Microsoft Edge or another supported browser.
+  </p>
+</div>
+
+ 
+
+  <main class="page-content">
+    <div class="devise-section">
+  <h1>Log In</h1>
+  <div class="row">
+    <div class="col3of5">
+      <form class="new_user" id="new_user" action="/signin" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="2n3SWMTx0fdRYyw3qcG48SbxvRb6XAG8wm3P6HQdg089Ugz7j6dksB1SIQGqpnmFTNWbGF6LFX2WhSeVzJfdxQ" />
+        <div class="mbm">
+          <label for="user_email">Email</label>
+          <input autofocus="autofocus" type="email" value="" name="user[email]" id="user_email" />
+        </div>
+        <div class="mbs">
+          <div class="row">
+            <label class="left" for="user_password">Password</label>
+            <a class="right" data-turbolinks="false" href="/secret/new">Forgot password?</a>
+          </div>
+          <input type="password" name="user[password]" id="user_password" />
+        </div>
+
+          <div class="mbm checkbox"><input name="user[remember_me]" type="hidden" value="0" /><input tabindex="0" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" /> <label for="user_remember_me">Remember me</label></div>
+
+        <div class="submit separated-block from-bottom">
+          <input type="submit" name="commit" value="Log in" class="button button--primary login-action" data-disable-with="Log in" />
+          <p>Haven't received the confirmation email yet? <a class="device__resend-link" tabindex="0" data-turbolinks="false" href="/confirmation/new">Resend the email</a></p>
+        </div>
+</form>      <div class="signup_oauth">
+        <a class="button button--flat button--medium google-signup mbm" data-turbolinks="false" rel="nofollow" data-method="post" href="/auth/google_oauth2">
+  <div class="icon icon--google"><svg class="icon__cnt"><use xlink:href="#google-icon" /></svg></div>
+  <span class="text-normal">Use </span>Google account
+</a><a class="button button--flat button--medium github-signup mbm" data-turbolinks="false" rel="nofollow" data-method="post" href="/auth/github">
+  <div class="icon icon--github"><svg class="icon__cnt"><use xlink:href="#github-icon" /></svg></div>
+  <span class="text-normal">Use </span>Github account
+</a><a class="button button--flat button--medium office365-signup" data-turbolinks="false" rel="nofollow" data-method="post" href="/auth/microsoft_office365">
+  <div class="icon icon--office365"><svg class="icon__cnt"><use xlink:href="#office365-icon" /></svg></div>
+  <span class="text-normal">Use </span>Office 365 account
+</a>
+      </div>
+    </div>
+    <div class="col2of5">
+      <ul class="featured-block tips-list login_tips_block">
+        <li class="tip">Mailtrap is great for testing email notifications that are scheduled to go to many users.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  </main>
+  
+</body>
+</html>
