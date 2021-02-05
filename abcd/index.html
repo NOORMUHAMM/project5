@@ -1,0 +1,706 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* -----------------header------------------------------- */
+#header{
+height: 50px;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.header_content{
+    width: 100%;
+    margin:  auto;
+    height: 60px;
+    position: fixed;
+    background: white;
+}
+#logo{
+    float: left;
+    margin-left: 15%;
+
+}
+#Header_menu{
+    float:right;
+    margin-right: 15%;
+}
+  #list{
+     display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    color: #243a5f;
+    list-style-type: none;
+    font-weight: bold;
+    color: rgb(3, 3, 46);
+    bottom: 3px;
+    font-family: sans-serif;
+  }
+  .clear{
+      clear: both;
+  }
+  li:hover {
+  background-color: yellow;
+}
+#list>button{
+    color: coral;
+    height: 25px;
+    width: 80px;
+    border-radius: 30px;
+    
+
+}
+
+  /* -----------------header-end------------------------------- */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      
+        .container{
+            width: 100%;
+            margin: 0px auto;
+        
+            display: grid;
+            grid-template-rows: repeat(3,auto);
+            grid-template-columns: repeat(3, auto);
+            gap: 0px;
+        }
+        .grid_div1{
+        
+            width: 70%;
+            height: 500px;
+            margin:auto;
+         
+            margin-left: 34%;
+           
+        }
+        .grid_div1>h1,p{
+            margin-top: 100px;
+        }
+        .grid_div1>button{
+            margin-top: 100px;
+            margin-left: 25px;
+        }
+        .grid_div1> #button1{
+            background:rgb(238, 255, 0);
+            height: 90px;
+            width: 40%;
+            border-radius: 50px;
+        }
+        #button1:hover{
+            background: orange;
+        }
+        .grid_div1> #button2{
+            background:rgb(238, 166, 245);
+            height: 100px;
+            width:100px;
+            border-radius: 50%;
+            margin-left: 10px;
+            font-family: sans-serif;
+            
+        }
+        #button2:hover{
+            background: rgb(255, 0, 221);
+        }
+        .grid_div1> #button2>img{
+            width: 20px;
+        }
+        .grid_div2{
+         
+           width:70% ;
+           height: 500px;
+           grid-column: 2/-1;
+         margin-top: 80px;
+           margin-left:10%;
+        }
+        
+        
+        .grid_div3{
+            background: rgb(238, 166, 245);
+          grid-column: 1/-1;
+            height: 300px;
+           
+            overflow: hidden;
+        
+    
+        }
+        .grid_div4{
+        
+            background: rgb(238, 166, 245);
+          grid-column: 1/-1;
+            height: 300px;
+            padding-bottom: 50px;
+        }
+        .grid_div4>h1,p{
+            color:white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .grid_div5{
+          grid-column: 1/-1;
+            height: 200px;
+            margin: 25px auto;
+        }
+        .grid_div5>div{
+          float: left;
+            height: 100px;
+         font-family: sans-serif;
+            
+            width: 150px;
+            margin :20px auto;
+            margin-left: 50px;
+        }
+        .grid_div5>.div1{
+            margin-left: 200px;
+            font-family: sans-serif;
+            width: 150px;
+        }
+        .grid_div5>.first_div{
+            margin-left: 100px;
+            font-family: sans-serif;
+            width: 150px;
+        }
+        .grid_div6{
+         
+            grid-column: 1/-1;
+            height: 300px;
+            margin:25px  auto;
+           
+           
+        }
+        .grid_div6>img{
+            height: 300px;
+      
+
+        }
+
+        .grid_div7{
+            grid-column: 1/3;
+            width: 70%;
+            margin-left: 25%;
+          
+          
+        }
+        .grid_div8{
+       margin-top: 50px;
+            height: 300px;
+           width: 100%;
+        }
+        .grid_div8>h1,p{
+            color: black;
+            font-family: sans-serif;
+            margin-top: 60px;
+            text-align: left;
+            w
+            
+        }
+        .grid_div9{
+           
+            border-top: 3px dashed rgb(117, 114, 114);
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div10{
+           
+           width: 50%;
+           margin-left: 30%;
+            margin-top: 50PX;
+      
+
+        }
+        .grid_div11 {
+            
+            width: 90%;
+            margin-top: 50PX;
+            grid-column: 2/-1;
+            margin-right:200px;
+           
+        }
+        .grid_div12{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div13{
+            background: ;
+            grid-column: 1/3;
+            margin-left: ;
+            width: 70%;
+            margin-left: 25%;
+        }
+        .grid_div14{
+    
+            height: 300px;
+            margin-right:40%;
+            margin-top: 80px;
+           
+        }
+        .grid_div15{
+            border-top: 3px dashed rgb(117, 114, 114);
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div16{
+            width: 50%;
+           margin-left: 30%;
+            grid-column: ;
+            margin-top: 50PX;
+        }
+        .grid_div17{
+            width: 90%;
+            margin-top: 50PX;
+            grid-column: 2/-1;
+            margin-right: 10%;
+        }
+        .grid_div18{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div19{
+            background: ;
+            grid-column: 1/3;
+            margin-left: ;
+            width: 70%;
+            margin-left: 25%;
+        }
+        .grid_div20{
+            background:;
+            height: 300px;
+            margin-right:40%;
+            margin-top: 80px;
+        }
+        .grid_div21{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div22{
+            width: 50%;
+           margin-left: 30%;
+            grid-column: ;
+            margin-top: 50PX;
+        }
+        .grid_div23{
+            width: 90%;
+            margin-top: 50PX;
+            grid-column: 2/-1;
+            margin-right: 10%;
+        }
+        .grid_div24{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div27{
+            background: aqua;
+        }
+        .grid_div28{
+            background:red;
+        }
+        .grid_div29{
+            background: blue;
+        }
+        .grid_div30{
+            background: aqua;
+        }
+        .grid_div31{
+            background:red;
+        }
+        .grid_div32{
+            background: blue;
+        }
+        @media only screen and (max-width: 600px) {
+            *{
+            margin: 0;
+            padding: 0;
+        }
+      
+        .container{
+            width: 100%;
+            margin: 0px auto;
+        
+            display: block;
+            grid-template-rows: repeat(1,auto);
+            grid-template-columns: repeat(1, auto);
+            gap: 0px;
+        }
+        .grid_div1{
+        
+            width: 100%;
+            height: 500px;
+            margin:auto;
+         
+            margin-left:15px;
+            text-align: center;
+           
+        }
+        .grid_div1>h1{
+            margin-top: 100px;
+            text-align: center;
+            margin-left: 25px auto;
+        }
+        .grid_div1>p{
+            margin-left: 80px;
+        }
+        .grid_div1>button{
+            margin-top: 100px;
+            margin-left: 5px;
+        }
+        .grid_div1> #button1{
+            background:rgb(238, 255, 0);
+            height: 80px;
+            width: 200px;
+            border-radius: 50px;
+        }
+        #button1:hover{
+            background: orange;
+        }
+        .grid_div1> #button2{
+            background:rgb(238, 166, 245);
+            height: 100px;
+            width:100px;
+            border-radius: 50%;
+            margin-left: 20px;
+            font-family: sans-serif;
+            
+        }
+        #button2:hover{
+            background: rgb(255, 0, 221);
+        }
+        .grid_div1> #button2>img{
+            width: 20px;
+        }
+        .grid_div2{
+         
+           width:100% ;
+        
+        }
+        .grid_div2>img{
+            width: 400px;
+        }
+        .grid_div4{
+        }
+        .grid_div4>h1,p{
+            color:white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .grid_div5{
+          grid-column: 1/-1;
+            height: auto;
+            margin:5px auto;
+        }
+        .grid_div5>div{
+            font-family: sans-serif;
+            width: 100%;
+        }
+        .grid_div5>.div1{
+        
+            font-family: sans-serif;
+            width: 100%;
+            margin-left:50px;
+        }
+        .grid_div5>.first_div{
+            width: 100%;
+            font-family: sans-serif;
+            padding-top: 25px;
+           margin-left: 70px;
+        }
+        .grid_div6{
+         
+            grid-column: 1/-1;
+            height: 500px;
+           
+        }
+        .grid_div6>img{
+            height: 250px;
+          margin-left: 0%;
+          margin-top:100px;
+          
+        }
+
+        .grid_div7{
+    
+            width: 70%;
+        margin-top: 100px;
+          
+          
+        }
+        .grid_div7>img{
+            width: 450px;
+          padding-left: -10px;
+          margin-left: -30%;
+        }
+        .grid_div8{
+            background:;
+            height: 350px;
+            margin-left:20%;
+            margin-top: 80px;
+           
+        }
+        .grid_div8>h1,p{
+            color: black;
+            font-family: sans-serif;
+            margin-top: 60px;
+            text-align: left;
+            
+        }
+        .grid_div9{
+           
+            border-top: 3px dashed rgb(117, 114, 114);
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div10{
+           
+           width: 50%;
+           margin-left: 20%;
+            margin-top: 50PX;
+
+
+        }
+        .grid_div11>img{
+            width: 430px;
+          padding-left: -10px;
+          margin-left: 5%;
+        }
+        .grid_div11 {
+            
+            width: 90%;
+            margin-top: 50PX;
+            grid-column: 2/-1;
+            margin-right:200px;
+           
+        }
+        .grid_div12>img{
+            width:100%;
+          margin-left: -50%;
+        
+        }
+        .grid_div12{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div13>img{
+            width: 480px;
+          padding-left: -10px;
+          margin-left: 5%;
+        }
+        .grid_div13{
+            background: ;
+            grid-column: 1/3;
+            margin-left: 2%;
+            width: 100%;
+    
+        }
+        .grid_div13>img{
+            width:400px;
+        }
+        .grid_div14{
+    
+          margin-left: 100px;
+            margin-top: 80px;
+            margin-bottom: 50px;
+           
+        }
+        .grid_div15{
+            border-top: 3px dashed rgb(117, 114, 114);
+            grid-column: 1/-1;
+            width: 75%;
+            margin:100px auto;
+            margin-top: 100px;
+        }
+        .grid_div16{
+            width: 100%;
+          
+            grid-column: ;
+            margin-top: 50PX;
+            margin-left: 100px;
+        }
+        .grid_div17{
+            width: 100%;
+            margin-top: 50PX;
+            grid-column: 2/-1;
+            margin-right: 10%;
+        }
+        .grid_div17>img{
+            width: 450px;
+          padding-left: -10px;
+          margin-left: 5%;
+        }
+        .grid_div18{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div19>img{
+            width: 400px;
+        
+          margin-left: -20%;
+        }
+        .grid_div19{
+          
+            grid-column: 1/3;
+    
+            width: 70%;
+            margin-left: 25%;
+        }
+        .grid_div20{
+           
+        
+         width: 100%;
+            margin-top: 80px;
+            margin-left:80px;
+        }
+        .grid_div21{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div22{
+            width: 100%;
+           margin-left: 15%;
+            margin-top: 50PX;
+        }
+        .grid_div23>img{
+        width: 400px;
+        
+        margin-left:40px
+      }
+        .grid_div23{
+            width: 90%;
+            margin-top: 50PX;
+            grid-column: 2/-1;
+            margin-right: 10%;
+        }
+        .grid_div24{
+            border-top: 3px dashed rgb(117, 114, 114);;
+            grid-column: 1/-1;
+            width: 75%;
+            margin:50px auto;
+        }
+        .grid_div27{
+            background: aqua;
+        }
+        .grid_div28{
+            background:red;
+        }
+        .grid_div29{
+            background: blue;
+        }
+        .grid_div30{
+            background: aqua;
+        }
+        .grid_div31{
+            background:red;
+        }
+        .grid_div32{
+            background: blue;
+        }
+
+        }
+       
+
+
+    </style>
+</head>
+<body>
+ <!-- /* -----------------header------------------------------- */ -->
+ <div id="header">
+    <div class="header_content"> <ul>
+      <div id="logo"><img src="https://assets.mailtrap.io/packs/assets/landing/logo-a902bbfd8e70556d863145ae15e74fb5.svg" alt="loading"></div>
+      <div id="Header_menu">
+    <ul id="list">
+         <a href="file:///C:/Users/NOOR/javascript/mailtrip-header.html"><li>HOW IT WORKS</li></a>
+          <li>PRICING</li>
+          <li>API</li>
+          <li> <link rel="stylesheet" href="C:\Users\NOOR\myProject\blog\blog_css.css"><button id="Blog">BLOG</button> 
+            <script src="C:\Users\NOOR\myProject\blog\blog.js"></script>
+       </li>
+         <a href="C:\Users\NOOR\myProject\help\help.html"> <li>HELP</li></a>
+          <button>log in</button>
+          <button>Sign up</button>
+      </ul></div>
+      <div class="clear"></div>
+</div>
+
+
+<div class="clear"></div>
+ <!-- /* -----------------header end------------------------------- */ -->
+
+ <div class="container">
+<div class="grid_div1"> <h1>Safe Email Testing for<br> Staging & Development</h1>
+<p>Inspect and debug your email samples before <br> delivering them to your customers.</p>
+<button id="button1">Sign up now</button>
+<button id="button2"><img src="https://cdn3.iconfinder.com/data/icons/circle-social-media-pack/512/Youtube-512.png" alt="loading"></button>How its work
+
+</div >    
+       <div class="grid_div2"> <img src="https://assets.mailtrap.io/packs/assets/landing/intro-schema-desktop-dc27bb610676011e1220886af7a0d13f.svg" alt="loading">   </div >    
+       
+        <div class="grid_div3"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L60,213.3C120,203,240,181,360,181.3C480,181,600,203,720,218.7C840,235,960,245,1080,229.3C1200,213,1320,171,1380,149.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> </div >    
+       <div class="grid_div4">  <h1> Whether you are developer, QA, or PM,<br> Mailtrap has the tools for you to help  <br> building great email functionality</h1>  
+       
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,224L60,213.3C120,203,240,181,360,181.3C480,181,600,203,720,218.7C840,235,960,245,1080,229.3C1200,213,1320,171,1380,149.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>  -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L60,144C120,160,240,192,360,197.3C480,203,600,181,720,154.7C840,128,960,96,1080,74.7C1200,53,1320,43,1380,37.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </div >    
+       <div class="grid_div5">  <div class="first_div"><h1>Mailtrap Setup is Easy</h1></div> 
+       <div class="div1"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0iI0ZGRiIgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIi8+PHBhdGggZD0iTTEzIDMzLjg3NWg3LjI1bDMuMDgzIDQuNjI1aDEyLjMzNGwzLjA4My00LjYyNUg0NmEyIDIgMCAwIDEgMiAydjE2LjA0MmEyIDIgMCAwIDEtMiAySDEzYTIgMiAwIDAgMS0yLTJWMzUuODc1YTIgMiAwIDAgMSAyLTJ6IiBmaWxsPSIjNUFGRkRGIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNMzMuNTUzIDMwLjM3NUwzMC40NjkgMzVIMTYuNTMxbC0zLjA4NC00LjYyNUg3YS41LjUgMCAwIDAtLjUuNXYxNi4wNDJhLjUuNSAwIDAgMCAuNS41aDMzYS41LjUgMCAwIDAgLjUtLjVWMzAuODc1YS41LjUgMCAwIDAtLjUtLjVoLTYuNDQ3eiIgc3Ryb2tlPSIjNEE0QTRBIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMzUgNWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTFWNmExIDEgMCAwIDEgMS0xem0xMS41IDExLjV2MWExIDEgMCAwIDEtMSAxaC01YTEgMSAwIDAgMS0xLTF2LTFhMSAxIDAgMCAxIDEtMWg1YTEgMSAwIDAgMSAxIDF6bS0zLjIwNy03Ljc5OGwuNjcuNzQ0YTEgMSAwIDAgMS0uMDc0IDEuNDEybC0zLjcxNiAzLjM0NmExIDEgMCAwIDEtMS40MTItLjA3NGwtLjY3LS43NDRhMSAxIDAgMCAxIC4wNzQtMS40MTJsMy43MTYtMy4zNDZhMSAxIDAgMCAxIDEuNDEyLjA3NHoiIGZpbGw9IiM0QTRBNEEiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik0xMy4wNjggMTYuMDUyQTEuNSAxLjUgMCAwIDEgMTQuNSAxNWgxOGExLjUgMS41IDAgMCAxIDEuNDMyIDEuMDUybDcuODY3IDEzLjYyNmExLjUgMS41IDAgMSAxLTIuNTk4IDEuNUwzMS41OTMgMThIMTUuNDA3TDcuOCAzMS4xNzhhMS41IDEuNSAwIDEgMS0yLjU5OC0xLjVsNy44NjctMTMuNjI2eiIgZmlsbD0iIzRBNEE0QSIvPjwvZz48L3N2Zz4=" alt="loading">
+      <h2>Click Your Demo Inbox</h2>
+    </div>
+       <div><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIiBmaWxsPSIjRkZGIi8+PGcgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMjIuNjQ4IDIyaDI2LjcxM2EzIDMgMCAwIDEgMi40NyAxLjI5N2w4Ljk3OCAxMy4wMjJhMyAzIDAgMCAxLS4wMjIgMy40MzhsLTguOTU0IDEyLjYzYTMgMyAwIDAgMS0yLjQ0NyAxLjI2NWgtMjYuNzhhMyAzIDAgMCAxLTIuNDQtMS4yNTNsLTguOTQ0LTEyLjQ4N2EzIDMgMCAwIDEtLjAzOS0zLjQzOWw4Ljk4OC0xMy4xNjVBMyAzIDAgMCAxIDIyLjY0OCAyMnoiIGZpbGw9IiNEQ0JBRkYiLz48cGF0aCBkPSJNMjEuMzA4IDM4LjA3N2EyLjMwOCAyLjMwOCAwIDEgMSAwLTQuNjE1IDIuMzA4IDIuMzA4IDAgMCAxIDAgNC42MTV6bTcuNjkyIDBhMi4zMDggMi4zMDggMCAxIDEgMC00LjYxNSAyLjMwOCAyLjMwOCAwIDAgMSAwIDQuNjE1em03LjY5MiAwYTIuMzA4IDIuMzA4IDAgMSAxIDAtNC42MTUgMi4zMDggMi4zMDggMCAwIDEgMCA0LjYxNXoiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNMTguMzA4IDM2LjA3N2EyLjMwOCAyLjMwOCAwIDEgMSAwLTQuNjE1IDIuMzA4IDIuMzA4IDAgMCAxIDAgNC42MTV6bTcuNjkyIDBhMi4zMDggMi4zMDggMCAxIDEgMC00LjYxNSAyLjMwOCAyLjMwOCAwIDAgMSAwIDQuNjE1em03LjY5MiAwYTIuMzA4IDIuMzA4IDAgMSAxIDAtNC42MTUgMi4zMDggMi4zMDggMCAwIDEgMCA0LjYxNXpNNDYgNWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTFWNmExIDEgMCAwIDEgMS0xem0xMS41IDExLjV2MWExIDEgMCAwIDEtMSAxaC01YTEgMSAwIDAgMS0xLTF2LTFhMSAxIDAgMCAxIDEtMWg1YTEgMSAwIDAgMSAxIDF6bS0zLjIwNy03Ljc5OGwuNjcuNzQ0YTEgMSAwIDAgMS0uMDc0IDEuNDEybC0zLjcxNiAzLjM0NmExIDEgMCAwIDEtMS40MTItLjA3NGwtLjY3LS43NDRhMSAxIDAgMCAxIC4wNzQtMS40MTJsMy43MTYtMy4zNDZhMSAxIDAgMCAxIDEuNDEyLjA3NHoiIGZpbGw9IiM0QTRBNEEiLz48L2c+PHBhdGggZD0iTTQuNjEgMzMuMzY0bDkuODAzIDEzLjAxYTEuNzUgMS43NSAwIDEgMS0yLjc5NSAyLjEwNkwxLjA4NyAzNC41MDRhMS43NDMgMS43NDMgMCAwIDEtLjM1LTEuMTRjLS4wMi0uMzk2LjA5My0uOC4zNS0xLjE0bDEwLjUzMS0xMy45NzdhMS43NSAxLjc1IDAgMSAxIDIuNzk1IDIuMTA3TDQuNjEgMzMuMzY0eiIgZmlsbD0iIzRBNEE0QSIvPjxwYXRoIGQ9Ik01MC44OSAzMy4zNjRsLTkuODAzIDEzLjAxYTEuNzUgMS43NSAwIDEgMCAyLjc5NSAyLjEwNmwxMC41MzEtMTMuOTc2Yy4yNTctLjM0LjM3LS43NDUuMzUtMS4xNC4wMi0uMzk2LS4wOTMtLjgtLjM1LTEuMTRMNDMuODgyIDE4LjI0NmExLjc1IDEuNzUgMCAxIDAtMi43OTUgMi4xMDdsOS44MDMgMTMuMDF6IiBmaWxsPSIjRkZGIi8+PHBhdGggZD0iTTQ3Ljg5IDMzLjM2NGwtOS44MDMgMTMuMDFhMS43NSAxLjc1IDAgMSAwIDIuNzk1IDIuMTA2bDEwLjUzMS0xMy45NzZjLjI1Ny0uMzQuMzctLjc0NS4zNS0xLjE0LjAyLS4zOTYtLjA5My0uOC0uMzUtMS4xNEw0MC44ODIgMTguMjQ2YTEuNzUgMS43NSAwIDEgMC0yLjc5NSAyLjEwN2w5LjgwMyAxMy4wMXoiIGZpbGw9IiM0QTRBNEEiLz48L2c+PC9zdmc+Cg==" alt="loading">
+        <h2>Copy / Paste Your Configuration
+
+        </h2></div>
+       <div><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjYiIGhlaWdodD0iNjYiIHZpZXdCb3g9IjAgMCA2NiA2NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0iI0ZGRiIgY3g9IjMzIiBjeT0iMzMiIHI9IjMzIi8+PHJlY3QgZmlsbD0iI0ZGRTU0QyIgeD0iMTAuMDQiIHk9IjI3LjA0IiB3aWR0aD0iMzYuOTYiIGhlaWdodD0iMjYuODgiIHJ4PSIzIi8+PHBhdGggZD0iTTEyLjM3NyAyNy4zOTlsMTIuNjMgNy40MzRhMS4yNyAxLjI3IDAgMCAxIC40MzMgMS43NjggMS4zNCAxLjM0IDAgMCAxLTEuODE1LjQ0NGwtMTIuNjMtNy40MzRhMS4yNyAxLjI3IDAgMCAxLS40MzMtMS43NjggMS4zNCAxLjM0IDAgMCAxIDEuODE1LS40NDR6IiBmaWxsPSIjNEE0QTRBIi8+PHBhdGggZD0iTTM2LjA5NSAyNy4yNjJsLTExLjkyNiA3Ljc4NGExLjM4NCAxLjM4NCAwIDAgMC0uNDE3IDEuODkyIDEuMzMgMS4zMyAwIDAgMCAxLjg1NS40MWwxMS45MjYtNy43ODVhMS4zODQgMS4zODQgMCAwIDAgLjQxNy0xLjg5MiAxLjMzIDEuMzMgMCAwIDAtMS44NTUtLjQxeiIgZmlsbD0iIzRBNEE0QSIvPjxyZWN0IHN0cm9rZT0iIzRBNEE0QSIgc3Ryb2tlLXdpZHRoPSIzIiB4PSI2LjUiIHk9IjIzLjUiIHdpZHRoPSIzMy45NiIgaGVpZ2h0PSIyMy44OCIgcng9IjIiLz48cGF0aCBkPSJNNDMgOWgxYTEgMSAwIDAgMSAxIDF2NWExIDEgMCAwIDEtMSAxaC0xYTEgMSAwIDAgMS0xLTF2LTVhMSAxIDAgMCAxIDEtMXptMTEuNSAxMS41djFhMSAxIDAgMCAxLTEgMWgtNWExIDEgMCAwIDEtMS0xdi0xYTEgMSAwIDAgMSAxLTFoNWExIDEgMCAwIDEgMSAxem0tMy4yMDctNy43OThsLjY3Ljc0NGExIDEgMCAwIDEtLjA3NCAxLjQxMmwtMy43MTYgMy4zNDZhMSAxIDAgMCAxLTEuNDEyLS4wNzRsLS42Ny0uNzQ0YTEgMSAwIDAgMSAuMDc0LTEuNDEybDMuNzE2LTMuMzQ2YTEgMSAwIDAgMSAxLjQxMi4wNzR6IiBmaWxsPSIjNEE0QTRBIi8+PC9nPjwvc3ZnPg==
+
+        " alt="loading">
+    <h2>Collect dev emails into Mailtrap Inbox</h2></div> </div >    
+      <div class="grid_div6"> <img src="file:///C:/Users/NOOR/Downloads/computer-laptop.svg" alt="loading">   </div >    
+       <div class="grid_div7"> 
+           <img src="https://assets.mailtrap.io/packs/assets/landing/feature-no-spam-640aea63417f18395eb9f74b0f478e90.svg" alt="loading">   </div >    
+       <div class="grid_div8">  <h1>Never spam real <br> customers by  <br> mistake</h1> 
+    <p>Mailtrap is a dedicated playground for  <br>your email tests. Use it before your  <br>messages are perfect enough for <br> reaching real inboxes</p> </div >    
+       <div class="grid_div9">    </div >    
+       <div class="grid_div10">  <h1>Analyze emails for <br> spam & blacklists</h1> 
+    <p>Stay on the safe side with your emails. <br>  Mailtrap checks your domain and gives  <br> recommendations how to avoid spam  <br> filters</p> </div>    
+       <div class="grid_div11">   <img src="https://assets.mailtrap.io/packs/assets/landing/feature-analysis-c9e1136edfad12041344f5b9f8b103ab.svg" alt="loading"> </div >    
+       <div class="grid_div12">    </div >    
+       <div class="grid_div13"> <img src="https://assets.mailtrap.io/packs/assets/landing/feature-testing-c885bb3551f202846639d09989b3ceee.svg" alt="loading">   </div >    
+      <div class="grid_div14"> <h1>Test HTML for<br>  support by basic <br> email clients</h1>
+    <p> Inspect and debug each part of your<br>  message, and check if it works fine for<br>  the most popular email clients.</p>   </div >    
+       <div class="grid_div15">    </div >    
+       <div class="grid_div16"> <h1>Share inboxes with<br>   your team <br>  members</h1>
+    <p>Discuss your ideas with colleagues or<br>   demonstrate your progress to the <br>  customer: invite them to your inbox!</p>   </div>    
+       <div class="grid_div17">  <img src="https://assets.mailtrap.io/packs/assets/landing/feature-sharing-783928d0f01afaff3a0e69b28e98dae8.svg" alt="loading">  </div>    
+       <div class="grid_div18">    </div >    
+        
+        <div class="grid_div19">  <img src="https://assets.mailtrap.io/packs/assets/landing/feature-inboxes-13c1a03438b1561081cd3865bed49770.svg" alt="loading">  </div >    
+       <div class="grid_div20"> <h1> Organize test <br> emails into special <br> inboxes</h1>  
+    <p> Separate your projects by creating a<br>  new inbox for each of them, just in two<br>  clicks. No more chaos!</p> </div >    
+       <div class="grid_div21">    </div >    
+      <div class="grid_div22">  <h1>Secure by default <br>  (HTTPS & TLS)</h1> 
+    <p>Your connection with the Mailtrap <br> server is secure and encrypted. Your <br> data always stays safe and private</p> </div >    
+       <div class="grid_div23">   <img src="https://assets.mailtrap.io/packs/assets/landing/feature-security-b3ec20d17f2f2b619072754141e55696.svg" alt="loading"> </div >    
+       <div class="grid_div24">    </div >    
+       <div class="grid_div25">    </div>    
+    
+    </div>
+</body>
+</html>
