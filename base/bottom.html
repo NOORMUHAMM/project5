@@ -79,6 +79,8 @@
             color: white;
             border: 1px solid silver;
             border-radius: 8px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
         }
         .content_div{
             width: 85%;
@@ -107,6 +109,9 @@
             text-decoration: none;
             text-align: left;
         }
+        .user_guide > .mailId {
+            margin-left: -7%;
+        }
         .social_icon {
             width: 8.2%;
             height: 8.2%;
@@ -125,8 +130,12 @@
             background: url(https://www.flaticon.com/svg/vstatic/svg/733/733579.svg?token=exp=1612436819~hmac=28873aaeb769258c4c83eb937e6ab531);
             background-size: cover;
         }
+        .waste {
+            width: 65%;
+            margin-top: -8%;
+            margin-left: 22%;
+        }
         .rights {
-            margin-top: -5%;
             margin-left: 22%;
             width: 65%;
             line-height: 20px;
@@ -166,7 +175,7 @@
                 <div class="railsware_div">
                     <button class="railsware" id="railsware">
                         <h6>CRAFTED BY</h6>
-                        <h1>railsware</h1>
+                        <h2>railsware</h2>
                     </button>
                 </div>
                 <div class="content_div">
@@ -196,8 +205,8 @@
                     <div class="user_guide">
                         <h3>CONTACT</h3>
                         <!-- <hr/> -->
-                        <span>
-                            eamil:
+                        <span class="user_guide">
+                           <a class="mailId">email:</a>
                             <a href="">support[at]mailtrap.io</a>
                         </span><br>
                         <span class="inline">
@@ -219,7 +228,9 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="waste">
+                <hr>
+            </div>
             <div class="rights">
                 <!-- <hr/> -->
                 <div class="copyright">
