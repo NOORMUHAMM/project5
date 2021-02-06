@@ -430,12 +430,68 @@ function old_articles(){
 // function_for_BLOG BUTTON
 function open_blog(){
 
+
     // prevents_creating_multiPages
     var divs = document.querySelectorAll('div');
     
     divs.forEach(function(el){
         el.remove();
     })
+
+    // hearder 
+    var header = document.createElement('header');
+    header.setAttribute('id', 'blog_header');
+    body.append(header);    
+
+    var mailtrap_logo = document.createElement('div');
+    mailtrap_logo.setAttribute('class', 'mailtrap_logo');
+    header.append(mailtrap_logo);
+    var logo = document.createElement('img');
+    logo.setAttribute('src', 'https://assets.mailtrap.io/packs/assets/landing/logo-a902bbfd8e70556d863145ae15e74fb5.svg');
+    logo.setAttribute('class', 'logo')
+    mailtrap_logo.append(logo)
+
+    var how_works = document.createElement('a');
+    how_works.setAttribute('class', 'menu');
+    how_works.setAttribute('href', "");
+    how_works.textContent = "HOW IT WORKS"
+    header.append(how_works)
+
+    var pricing = document.createElement('a');
+    pricing.setAttribute('class', 'menu pricing');
+    pricing.setAttribute('href', "");
+    pricing.textContent = "PRICING"
+    header.append(pricing)
+
+    var api = document.createElement('a');
+    api.setAttribute('class', 'menu api');
+    api.setAttribute('href', "");
+    api.textContent = "API"
+    header.append(api)
+
+    var nav_blog = document.createElement('a');
+    nav_blog.setAttribute('class', 'menu nav_blog');
+    nav_blog.setAttribute('href', "");
+    nav_blog.textContent = "BLOG"
+    header.append(nav_blog)
+
+    var nav_help = document.createElement('a');
+    nav_help.setAttribute('class', 'menu nav_help');
+    nav_help.setAttribute('href', "");
+    nav_help.textContent = "HELP"
+    header.append(nav_help)
+    
+    var nav_login = document.createElement('button');
+    nav_login.setAttribute('class', 'nav_btn');
+    nav_login.setAttribute('link', "");
+    nav_login.textContent = "Log in"
+    header.append(nav_login)
+
+    var nav_sign = document.createElement('button');
+    nav_sign.setAttribute('class', 'nav_btn nav_sign');
+    nav_sign.setAttribute('link', "");
+    nav_sign.textContent = "Sign in"
+    header.append(nav_sign)
 
     // BLOG_Background_image
     var blog_div = document.createElement('div');
@@ -1037,6 +1093,214 @@ function open_blog(){
     olderPosts.setAttribute('class', 'olderPosts')
     new_posts.append(olderPosts)
 
+    // footer
+    var try_mail = document.createElement('div');
+    try_mail.setAttribute('class', 'try_mail');
+    body.append(try_mail)
+
+    var try_mail_heading = document.createElement('h1');
+    try_mail_heading.setAttribute('class', 'mail_heading');
+    try_mail_heading.textContent = "Your email workflows deserve more love";
+    try_mail.append(try_mail_heading);
+
+    var mail_btn = document.createElement('button');
+    mail_btn.setAttribute('class', 'mail_btn');
+    mail_btn.textContent = "Try Mailtrap for free";
+    try_mail.append(mail_btn)
+
+    var footer = document.createElement('div');
+    footer.setAttribute('class', 'footer_b');
+    body.append(footer);
+
+    var footer_cont = document.createElement('div');
+    footer_cont.setAttribute('class', 'footer_cont');
+    footer.append(footer_cont);
+
+    var lo = document.createElement('div');
+    lo.setAttribute('class', 'lo');
+    footer.append(lo)
+
+    var lobtn = document.createElement('button');
+    lobtn.setAttribute('class', 'lobtn');
+    lo.append(lobtn)
+
+    var h5 = document.createElement('h5');
+    h5.textContent = "CRAFTED BY";
+    lobtn.append(h5);
+
+    var h2 = document.createElement('h2');
+    h2.textContent = "railsware";
+    lobtn.append(h2)
+    // menu
+    var prod = document.createElement('div')
+    prod.setAttribute('class', 'product');
+    footer_cont.append(prod);
+
+    var h1 = document.createElement('h1')
+    h1.setAttribute('class', 'prod_h1');
+    h1.textContent = "PRODUCTS"
+    prod.append(h1)
+
+    var pa_d1 = document.createElement('div')
+    pa_d1.setAttribute('class', 'space');
+    prod.append(pa_d1);
+
+    var pa1 = document.createElement('a');
+    pa1.setAttribute('class', 'pa1');
+    pa1.setAttribute('href', '');
+    pa1.textContent = "Jira Smart Checklist";
+    pa_d1.append(pa1)
+
+    var pa_d2 = document.createElement('div')
+    pa_d2.setAttribute('class', 'space');
+    prod.append(pa_d2);
+
+    var pa2 = document.createElement('a');
+    pa2.setAttribute('class', 'pa1');
+    pa2.setAttribute('href', '');
+    pa2.textContent = "Notemate.co";
+    pa_d2.append(pa2)
+    
+    var pa_d3 = document.createElement('div')
+    pa_d3.setAttribute('class', 'space');
+    prod.append(pa_d3);
+    
+    var pa3 = document.createElement('a');
+    pa3.setAttribute('class', 'pa1');
+    pa3.setAttribute('href', '');
+    pa3.textContent = "Pivotal Booster";
+    pa_d3.append(pa3)
+
+    
+    var exp = document.createElement('div')
+    exp.setAttribute('class', 'exp');
+    footer_cont.append(exp);
+
+    var h1 = document.createElement('h1')
+    h1.setAttribute('class', 'prod_h1');
+    h1.textContent = "EXPERIENCE"
+    exp.append(h1)
+
+    var pa_d1 = document.createElement('div')
+    pa_d1.setAttribute('class', 'space');
+    exp.append(pa_d1);
+
+    var pa1 = document.createElement('a');
+    pa1.setAttribute('class', 'pa1');
+    pa1.setAttribute('href', '');
+    pa1.textContent = "Open Source";
+    pa_d1.append(pa1)
+
+    var pa_d2 = document.createElement('div')
+    pa_d2.setAttribute('class', 'space');
+    exp.append(pa_d2);
+
+    var pa2 = document.createElement('a');
+    pa2.setAttribute('class', 'pa1');
+    pa2.setAttribute('href', '');
+    pa2.textContent = "Railsware Blog";
+    pa_d2.append(pa2)
+    
+    var trap = document.createElement('div')
+    trap.setAttribute('class', 'exp');
+    footer_cont.append(trap);
+
+    var h1 = document.createElement('h1')
+    h1.setAttribute('class', 'prod_h1');
+    h1.textContent = "MAILTRAP"
+    trap.append(h1)
+
+    var pa_d1 = document.createElement('div')
+    pa_d1.setAttribute('class', 'space');
+    trap.append(pa_d1);
+
+    var pa1 = document.createElement('a');
+    pa1.setAttribute('class', 'pa1');
+    pa1.setAttribute('href', '');
+    pa1.textContent = "Pricing";
+    pa_d1.append(pa1)
+
+    var pa_d2 = document.createElement('div')
+    pa_d2.setAttribute('class', 'space');
+    trap.append(pa_d2);
+
+    var pa2 = document.createElement('a');
+    pa2.setAttribute('class', 'pa1');
+    pa2.setAttribute('href', '');
+    pa2.textContent = "Changelog";
+    pa_d2.append(pa2)
+    
+    var pa_d3 = document.createElement('div')
+    pa_d3.setAttribute('class', 'space');
+    trap.append(pa_d3);
+
+    var pa3 = document.createElement('a');
+    pa3.setAttribute('class', 'pa1');
+    pa3.setAttribute('href', '');
+    pa3.textContent = "Status";
+    pa_d3.append(pa3)
+    
+    var pa_d4 = document.createElement('div')
+    pa_d4.setAttribute('class', 'space');
+    trap.append(pa_d4);
+
+    var pa4 = document.createElement('a');
+    pa4.setAttribute('class', 'pa1');
+    pa4.setAttribute('href', '');
+    pa4.textContent = "Terms of Service";
+    pa_d4.append(pa4)
+
+    
+    var pa_d5 = document.createElement('div')
+    pa_d5.setAttribute('class', 'space');
+    trap.append(pa_d5);
+
+    var pa5 = document.createElement('a');
+    pa5.setAttribute('class', 'pa1');
+    pa5.setAttribute('href', '');
+    pa5.textContent = "Privacy Policy";
+    pa_d5.append(pa5)
+
+    var pa_d6 = document.createElement('div')
+    pa_d6.setAttribute('class', 'space');
+    trap.append(pa_d6);
+
+    var pa6 = document.createElement('a');
+    pa6.setAttribute('class', 'pa1');
+    pa6.setAttribute('href', '');
+    pa6.textContent = "Navigational Information";
+    pa_d6.append(pa6)
+    
+    var pa_d7 = document.createElement('div')
+    pa_d7.setAttribute('class', 'space');
+    trap.append(pa_d7);
+
+    var pa7 = document.createElement('a');
+    pa7.setAttribute('class', 'pa1');
+    pa7.setAttribute('href', '');
+    pa7.textContent = "DPA";
+    pa_d7.append(pa7)   
+    
+    var contact = document.createElement('div')
+    contact.setAttribute('class', 'exp');
+    footer_cont.append(contact);
+
+    var h1 = document.createElement('h1')
+    h1.setAttribute('class', 'prod_h1');
+    h1.textContent = "CONTACT"
+    contact.append(h1) 
+
+    var span = document.createElement('span');
+    span.setAttribute('class', 'span');
+    span.textContent = "email: "
+    contact.append(span)
+    var pa1 = document.createElement('a');
+    pa1.setAttribute('class', 'pa1');
+    pa1.setAttribute('href', '');
+    pa1.textContent = "support[at]mailtrap.io";
+    span.append(pa1)   
+
+    
     olderPosts.addEventListener('mouseout', original_color)
     olderPosts.addEventListener('mouseover', bgcolor)
     olderPosts.addEventListener('click', old_articles)
